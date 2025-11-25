@@ -1,0 +1,57 @@
+==== Training Started ====
+Saving logs to: runs_mae_freeze_large_NOAUG\logs\training_log.txt
+Best model will be saved to: runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth
+
+[Epoch 1] Train Loss=4.1567, Train Acc=7.76% | Val Loss=4.3049, Val Acc=13.53%
+--> New Best Model Saved at runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth (Val Acc: 13.53%)
+
+[Epoch 2] Train Loss=2.7845, Train Acc=31.13% | Val Loss=3.7514, Val Acc=29.47%
+--> New Best Model Saved at runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth (Val Acc: 29.47%)
+
+[Epoch 3] Train Loss=2.0549, Train Acc=45.15% | Val Loss=3.6673, Val Acc=35.27%
+--> New Best Model Saved at runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth (Val Acc: 35.27%)
+
+[Epoch 4] Train Loss=1.5679, Train Acc=57.59% | Val Loss=3.5860, Val Acc=39.13%
+--> New Best Model Saved at runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth (Val Acc: 39.13%)
+
+[Epoch 5] Train Loss=1.2633, Train Acc=64.50% | Val Loss=3.5814, Val Acc=41.55%
+--> New Best Model Saved at runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth (Val Acc: 41.55%)
+
+[Epoch 6] Train Loss=1.0176, Train Acc=72.07% | Val Loss=3.7166, Val Acc=43.48%
+--> New Best Model Saved at runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth (Val Acc: 43.48%)
+
+[Epoch 7] Train Loss=0.8278, Train Acc=76.62% | Val Loss=3.6929, Val Acc=43.48%
+[Epoch 8] Train Loss=0.6707, Train Acc=80.50% | Val Loss=3.9072, Val Acc=43.48%
+[Epoch 9] Train Loss=0.5732, Train Acc=83.64% | Val Loss=3.9321, Val Acc=50.24%
+--> New Best Model Saved at runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth (Val Acc: 50.24%)
+
+[Epoch 10] Train Loss=0.4678, Train Acc=86.07% | Val Loss=4.2146, Val Acc=47.83%
+[Epoch 11] Train Loss=0.3942, Train Acc=88.39% | Val Loss=4.5269, Val Acc=46.38%
+[Epoch 12] Train Loss=0.3379, Train Acc=89.92% | Val Loss=4.3311, Val Acc=48.31%
+[Epoch 13] Train Loss=0.2885, Train Acc=91.84% | Val Loss=4.3326, Val Acc=49.28%
+[Epoch 14] Train Loss=0.2408, Train Acc=92.83% | Val Loss=4.5833, Val Acc=48.79%
+[Epoch 15] Train Loss=0.2095, Train Acc=94.20% | Val Loss=4.3169, Val Acc=51.21%
+--> New Best Model Saved at runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth (Val Acc: 51.21%)
+
+[Epoch 16] Train Loss=0.1900, Train Acc=94.86% | Val Loss=4.6111, Val Acc=47.34%
+[Epoch 17] Train Loss=0.1647, Train Acc=95.24% | Val Loss=4.5777, Val Acc=49.76%
+[Epoch 18] Train Loss=0.1369, Train Acc=96.56% | Val Loss=4.5825, Val Acc=53.62%
+--> New Best Model Saved at runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth (Val Acc: 53.62%)
+
+[Epoch 19] Train Loss=0.1309, Train Acc=96.25% | Val Loss=4.4923, Val Acc=50.72%
+[Epoch 20] Train Loss=0.1179, Train Acc=97.05% | Val Loss=4.7324, Val Acc=48.31%
+[Epoch 21] Train Loss=0.1018, Train Acc=97.64% | Val Loss=4.7247, Val Acc=51.21%
+[Epoch 22] Train Loss=0.0952, Train Acc=97.66% | Val Loss=4.7286, Val Acc=51.21%
+[Epoch 23] Train Loss=0.0836, Train Acc=98.15% | Val Loss=4.8209, Val Acc=50.72%
+[Epoch 24] Train Loss=0.0775, Train Acc=98.48% | Val Loss=4.8297, Val Acc=51.69%
+[Epoch 25] Train Loss=0.0819, Train Acc=98.10% | Val Loss=4.7199, Val Acc=51.21%
+[Epoch 26] Train Loss=0.0685, Train Acc=98.67% | Val Loss=4.7905, Val Acc=49.76%
+[Epoch 27] Train Loss=0.0692, Train Acc=98.61% | Val Loss=4.8882, Val Acc=52.66%
+[Epoch 28] Train Loss=0.0699, Train Acc=98.55% | Val Loss=4.7245, Val Acc=54.11%
+--> New Best Model Saved at runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth (Val Acc: 54.11%)
+
+[Epoch 29] Train Loss=0.0604, Train Acc=98.92% | Val Loss=4.6945, Val Acc=52.66%
+[Epoch 30] Train Loss=0.0612, Train Acc=98.69% | Val Loss=4.6958, Val Acc=52.66%
+==== Training Completed ====
+Best Validation Accuracy: 54.11%
+Best Model Path: runs_mae_freeze_large_NOAUG\models\mae_frozen_best.pth
