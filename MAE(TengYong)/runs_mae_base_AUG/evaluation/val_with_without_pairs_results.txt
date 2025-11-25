@@ -1,0 +1,8 @@
+WITH-PAIRS / WITHOUT-PAIRS Result on Validation Set
+Samples in WITH-PAIRS group   : 153
+Samples in WITHOUT-PAIRS group: 54
+
+WITH PAIRS Top-1 Accuracy   : 71.8954%
+WITH PAIRS Top-5 Accuracy   : 90.1961%
+WITHOUT PAIRS Top-1 Accuracy: 0.0000%
+WITHOUT PAIRS Top-5 Accuracy: 1.8519%
