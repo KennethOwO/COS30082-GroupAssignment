@@ -37,7 +37,7 @@
   - [📁 Included Notebook](#-included-notebook-1)
   - [🛠️ Training Summary](#️-training-summary-1)
 
-- [📁 MAE (TengYong & Raymond)](#-mae-tengyong--raymond)
+- [📁 MAE (TengYong & Voong)](#-mae-tengyong--voong)
   - [🌿 MAE Herbarium–Field Cross-Domain Classification](#-mae-herbariumfield-cross-domain-classification)
   - [📁 Included Notebooks](#-included-notebooks-2)
     - [MAE Base (End-to-End)](#1-mae_bipynb)
@@ -335,7 +335,7 @@ This repository contains **1 training pipeline** built using **DINOv2** for **cr
 
 ---
 
-# 📁 **MAE (TengYong & Raymond)**
+# 📁 **MAE (TengYong & Voong)**
 
 ## 🌿 **MAE Herbarium–Field Cross-Domain Classification**
 
