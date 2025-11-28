@@ -13,11 +13,6 @@
   - [🛠️ Data Preprocessing](#-data-preprocessing)
   - [🧪 Training Summary](#-training-summary)
 
-- [📁 Dinov2withTripletLoss (Eddie Pui)](#-dinov2withtripletloss-eddie-pui)
-  - [🌿 Dinov2 with TripletLoss Herbarium–Field Cross-Domain Classification](#-dinov2-with-tripletloss-herbariumfield-cross-domain-classification)
-  - [📁 Included Notebook](#-included-notebook-1)
-  - [🛠️ Training Summary](#️-training-summary-1)
-
 - [📁 DINOv2 Baseline (Xuan Yong)](#-dinov2-baseline-xuan-yong)
   - [🌿 DINOv2 Self-Supervised Baseline Experiments](#-dinov2-self-supervised-baseline-experiments)
   - [📁 Included Notebooks](#-included-notebooks)
@@ -36,8 +31,13 @@
     - [New Approach E](#5-dinov2_triplet_hf_5ipynb)
     - [New Approach F](#6-dinov2_triplet_hf_3ipynb)
   - [📊 Overall Validation Accuracy Summary](#-overall-validation-accuracy-summary)
+ 
+- [📁 Dinov2withTripletLoss (Eddie Pui)](#-dinov2withtripletloss-eddie-pui)
+  - [🌿 Dinov2 with TripletLoss Herbarium–Field Cross-Domain Classification](#-dinov2-with-tripletloss-herbariumfield-cross-domain-classification)
+  - [📁 Included Notebook](#-included-notebook-1)
+  - [🛠️ Training Summary](#️-training-summary-1)
 
-- [📁 MAE (TengYong & Voong)](#-mae-tengyong--voong)
+- [📁 MAE (TengYong & Raymond)](#-mae-tengyong--raymond)
   - [🌿 MAE Herbarium–Field Cross-Domain Classification](#-mae-herbariumfield-cross-domain-classification)
   - [📁 Included Notebooks](#-included-notebooks-2)
     - [MAE Base (End-to-End)](#1-mae_bipynb)
@@ -169,44 +169,7 @@ Augmentations applied:
 | AML_Resnet.ipynb   | ResNet50           | Yes (20 epochs)   | Unfreeze last 120 layers (10 epochs)    | Mix-Stream   |
 
 
-
-# 📁 **Dinov2withTripletLoss (Eddie Pui)**
-
-## 🌿 **Dinov2 with TripletLoss Herbarium–Field Cross-Domain Classification**
-
-Repository for **Dinov2 with Triplet Loss** training with **Multi Layer Perceptron (MLP)**.  
-This repository contains **1 training pipeline** built using **DINOv2** for **cross-domain plant species classification (Herbarium → Field)**.
-
-## 📁 **Included Notebook**
-
-### **Dinov2 New Approach (Eddie Pui).ipynb**
-
-- **Model:** Dinov2 ViT-Base  
-- **Training Type:**  
-  - **Stage 1:** Unfreeze 2 on Stage 1 fine tuning  
-  - **Stage 2:** Freeze all layers + attach an MLP  
-
-### **MLP Architecture**
-- **BatchNorm**  
-- **Linear(768 → 256)**  
-- **ReLU**  
-- **Linear(256 → 100)**  
-
-### **Augmentations**
-- RandomResizedCrop  
-- Horizontal/Vertical Flip  
-- Rotation  
-
-## 🛠️ **Training Summary**
-
-| Setting | Details |
-|--------|---------|
-| **Notebook** | Dinov2_new_approach.ipynb |
-| **Model** | DINOv2 ViT-Base |
-| **Stage 1 Config** | Unfreeze 2 transformer blocks (partial fine-tuning) |
-| **Stage 2 Config** | Freeze entire backbone + attach MLP (BatchNorm → Linear → ReLU → Linear) |
-| **Augmentation** | Yes |
-
+---
 
 # 📁 **DINOv2 Baseline (Xuan Yong)**
 
@@ -333,7 +296,46 @@ The **Overall Validation Accuracy.doc** file summarises all DINOv2 model perform
 
 ---
 
-# 📁 **MAE (TengYong & Voong)**
+# 📁 **Dinov2withTripletLoss (Eddie Pui)**
+
+## 🌿 **Dinov2 with TripletLoss Herbarium–Field Cross-Domain Classification**
+
+Repository for **Dinov2 with Triplet Loss** training with **Multi Layer Perceptron (MLP)**.  
+This repository contains **1 training pipeline** built using **DINOv2** for **cross-domain plant species classification (Herbarium → Field)**.
+
+## 📁 **Included Notebook**
+
+### **Dinov2 New Approach (Eddie Pui).ipynb**
+
+- **Model:** Dinov2 ViT-Base  
+- **Training Type:**  
+  - **Stage 1:** Unfreeze 2 on Stage 1 fine tuning  
+  - **Stage 2:** Freeze all layers + attach an MLP  
+
+### **MLP Architecture**
+- **BatchNorm**  
+- **Linear(768 → 256)**  
+- **ReLU**  
+- **Linear(256 → 100)**  
+
+### **Augmentations**
+- RandomResizedCrop  
+- Horizontal/Vertical Flip  
+- Rotation  
+
+## 🛠️ **Training Summary**
+
+| Setting | Details |
+|--------|---------|
+| **Notebook** | Dinov2_new_approach.ipynb |
+| **Model** | DINOv2 ViT-Base |
+| **Stage 1 Config** | Unfreeze 2 transformer blocks (partial fine-tuning) |
+| **Stage 2 Config** | Freeze entire backbone + attach MLP (BatchNorm → Linear → ReLU → Linear) |
+| **Augmentation** | Yes |
+
+---
+
+# 📁 **MAE (TengYong & Raymond)**
 
 ## 🌿 **MAE Herbarium–Field Cross-Domain Classification**
 
