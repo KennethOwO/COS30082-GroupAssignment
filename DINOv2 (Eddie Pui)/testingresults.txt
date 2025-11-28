@@ -1,0 +1,10 @@
+153 'with pairs' samples 
+54 'without pairs' samples.
+
+Group: WITH PAIRS (Trained on Herbarium + Field)
+  Top-1 Accuracy: 77.12%
+  Top-5 Accuracy: 94.77%
+
+Group: WITHOUT PAIRS (Trained on Herbarium ONLY)
+  Top-1 Accuracy: 16.67%
+  Top-5 Accuracy: 42.59%
