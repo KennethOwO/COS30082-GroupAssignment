@@ -1,3 +1,46 @@
+# 📁 **Dinov2withTripletLoss (Eddie Pui)**
+
+## 🌿 **Dinov2 with TripletLoss Herbarium–Field Cross-Domain Classification**
+
+Repository for **Dinov2 with Triplet Loss** training with **Multi Layer Perceptron (MLP)**.  
+This repository contains **1 training pipeline** built using **DINOv2** for **cross-domain plant species classification (Herbarium → Field)**.
+
+---
+
+## 📁 **Included Notebook**
+
+### **Dinov2 New Approach (Eddie Pui)**
+
+- **Model:** Dinov2 ViT-Base  
+- **Training Type:**  
+  - **Stage 1:** Unfreeze 2 on Stage 1 fine tuning  
+  - **Stage 2:** Freeze all layers + attach an MLP  
+
+### **MLP Architecture**
+- **BatchNorm**  
+- **Linear(768 → 256)**  
+- **ReLU**  
+- **Linear(256 → 100)**  
+
+### **Augmentations**
+- RandomResizedCrop  
+- Horizontal/Vertical Flip  
+- Rotation  
+
+---
+
+## 🛠️ **Training Summary**
+
+| Setting | Details |
+|--------|---------|
+| **Notebook** | Dinov2_new_approach.ipynb |
+| **Model** | DINOv2 ViT-Base |
+| **Stage 1 Config** | Unfreeze 2 transformer blocks (partial fine-tuning) |
+| **Stage 2 Config** | Freeze entire backbone + attach MLP (BatchNorm → Linear → ReLU → Linear) |
+| **Augmentation** | Yes |
+
+---
+
 # 📁 **MAE (TengYong & Raymond)**
 
 ## 🌿 **MAE Herbarium–Field Cross-Domain Classification**
