@@ -7,7 +7,7 @@ This repository contains **1 training pipeline** built using **DINOv2** for **cr
 
 ## 📁 **Included Notebook**
 
-### **Dinov2 New Approach (Eddie Pui)**
+### **Dinov2 New Approach (Eddie Pui).ipynb**
 
 - **Model:** Dinov2 ViT-Base  
 - **Training Type:**  
