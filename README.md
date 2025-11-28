@@ -5,8 +5,6 @@
 Repository for **Dinov2 with Triplet Loss** training with **Multi Layer Perceptron (MLP)**.  
 This repository contains **1 training pipeline** built using **DINOv2** for **cross-domain plant species classification (Herbarium → Field)**.
 
----
-
 ## 📁 **Included Notebook**
 
 ### **Dinov2 New Approach (Eddie Pui)**
@@ -26,8 +24,6 @@ This repository contains **1 training pipeline** built using **DINOv2** for **cr
 - RandomResizedCrop  
 - Horizontal/Vertical Flip  
 - Rotation  
-
----
 
 ## 🛠️ **Training Summary**
 
@@ -49,11 +45,10 @@ Repository for **MAE-Base** & **MAE-Large** Experiments (**End-to-End** & **Froz
 This repository contains four training pipelines built using **Masked Autoencoder (MAE)** Vision Transformers for **cross-domain plant species classification** (Herbarium → Field).  
 All notebooks follow a unified structure and differ only in model size and training strategy.
 
----
 
 ## 📁 **Included Notebooks**
 
----
+
 
 ### **1. MAE_B.ipynb**
 - **Model:** MAE-Base  
@@ -63,7 +58,6 @@ All notebooks follow a unified structure and differ only in model size and train
 **Description:**  
 Trains the full MAE-Base encoder on herbarium + field images with optional augmentations.
 
----
 
 ### **2. MAE_freeze_B.ipynb**
 - **Model:** MAE-Base  
@@ -73,7 +67,7 @@ Trains the full MAE-Base encoder on herbarium + field images with optional augme
 **Description:**  
 The MAE-Base encoder is frozen, and only the final classification head is trained.
 
----
+
 
 ### **3. MAE_L.ipynb**
 - **Model:** MAE-Large  
@@ -83,7 +77,7 @@ The MAE-Base encoder is frozen, and only the final classification head is traine
 **Description:**  
 Trains the full large-scale MAE encoder for stronger cross-domain generalisation.
 
----
+
 
 ### **4. MAE_freeze_L.ipynb**
 - **Model:** MAE-Large  
@@ -93,7 +87,7 @@ Trains the full large-scale MAE encoder for stronger cross-domain generalisation
 **Description:**  
 Uses MAE-Large as a feature extractor, training only the classification head.
 
----
+
 
 ## 🔧 **Toggle Data Augmentation**
 
@@ -115,7 +109,7 @@ Augmentation strongly affects cross-domain performance.
 | **USE_AUG = True**  | Tests whether augmentation improves Field generalisation |
 | **USE_AUG = False** | Tests pure model capability without augmentation |
 
----
+
 
 ## 🛠️ **Training Summary**
 
@@ -126,7 +120,7 @@ Augmentation strongly affects cross-domain performance.
 | MAE_L.ipynb           | MAE-Large | No     | USE_AUG             |
 | MAE_freeze_L.ipynb    | MAE-Large | Yes    | USE_AUG             |
 
----
+
 
 ## 📂 **Runs Output Structure**
 
@@ -141,7 +135,7 @@ Each run directory contains:
 - `per_class_metrics.csv`  
 - `val_with_without_pairs_results.txt`
 
----
+
 
 ## ✔ **File Descriptions**
 
@@ -150,7 +144,7 @@ Each run directory contains:
 - Train/validation loss  
 - Best validation accuracy  
 
----
+
 
 ### **classification_report.txt**
 Contains:
@@ -160,14 +154,14 @@ Contains:
 - Support  
 - Micro / Macro / Weighted averages  
 
----
+
 
 ### **confusion_matrix.png**
 Visual heatmap:
 - True labels (rows)  
 - Predicted labels (columns)
 
----
+
 
 ### **per_class_metrics.csv**
 Per-class performance:
@@ -176,7 +170,7 @@ Per-class performance:
 - F1-score  
 - Support  
 
----
+
 
 ### **val_with_without_pairs_results.txt**
 Final test accuracy on:
