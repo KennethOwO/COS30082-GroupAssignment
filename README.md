@@ -37,7 +37,7 @@ This repository contains **1 training pipeline** built using **DINOv2** for **cr
 
 ---
 
-# 📁 **MAE (TengYong & Raymond)**
+# 📁 **MAE (TengYong & Voong)**
 
 ## 🌿 **MAE Herbarium–Field Cross-Domain Classification**
 
